@@ -2,7 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 
 export default function Home() {
-
+  return (
+    <>
       {/* HERO */}
       <section aria-label="Hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
         {/* Fallback image — shown if video cannot autoplay */}
